@@ -97,7 +97,8 @@
 }
 
 .project-buttons a:hover {
-  background-color: #0984e3;
+  background-color: #3c4042;
+  color: white;
 }
 
 /* Lightbox */
@@ -159,5 +160,5 @@
 
 .project-card:hover {
   transform: scale(1.03); /* scale up slightly */
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); /* deeper shadow on hover */
+  box-shadow: 0 12px 30px rgb(70, 70, 70); /* deeper shadow on hover */
 }

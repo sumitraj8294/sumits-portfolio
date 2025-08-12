@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <p>© {new Date().getFullYear()} Sumit Raj. All rights reserved.</p>
         <div className="footer-links">
-          <a href="#hero">Home</a>
+          <a href="#Home">Home</a>
           <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
           <a href="#education">Education</a>

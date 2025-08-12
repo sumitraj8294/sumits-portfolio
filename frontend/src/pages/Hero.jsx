@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <section className="hero-container" id="Home">
   {/* Video background */}
-  <video className="hero-video-bg" autoPlay loop muted playsInline>
+  {/* <video className="hero-video-bg" autoPlay loop muted playsInline>
     <source src={heroVideo} type="video/mp4" />
-  </video>
+  </video> */}
 
   {/* 🔳 Transparent dark layer */}
   <div className="video-overlay" />

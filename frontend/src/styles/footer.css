@@ -1,4 +1,7 @@
 /* footer.css */
+body {
+  scroll-behavior: smooth;
+}
 
 .footer {
   background-color: #393939c7;

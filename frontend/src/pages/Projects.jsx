@@ -15,8 +15,8 @@ const projects = [
       'An EV charging locator with real-time search, user login, and Map integration.',
     tech: ['React', 'MongoDB', 'Node.js', 'Mapbox'],
     thumbnail: voltxImg,
-    github: '#',
-    live: '#',
+    github: "https://github.com/sumitraj8294/voltx",
+    live: "https://voltx-ev-frontend.onrender.com",
   },
   {
     title: 'SIH Project – India Post',
@@ -24,8 +24,7 @@ const projects = [
       'Built for Smart India Hackathon. Logistics optimization system for India Post.',
     tech: ['Python', 'Flask', 'ML', 'Google Maps API'],
     thumbnail: sihImg,
-    github: '#',
-    live: '#',
+    github: "https://github.com/romitdubey/slot-mate",
   },
   {
     title: 'Tourist Info System',
@@ -33,8 +32,8 @@ const projects = [
       'Smart travel assistant offering nearby places and insights.',
     tech: ['HTML', 'CSS', 'JS', 'Google Places API'],
     thumbnail: touristImg,
-    github: '#',
-    live: '#',
+    github: "https://github.com/sumitraj8294/Tourist_info_system",
+    live: "https://sumitraj8294.github.io/Tourist_info_system/",
   },
   {
     title: 'Weather App',
@@ -42,8 +41,8 @@ const projects = [
       'Weather forecasting with live city search using OpenWeatherMap API.',
     tech: ['React', 'API', 'Tailwind'],
     thumbnail: weatherImg,
-    github: '#',
-    live: '#',
+    github: "https://github.com/sumitraj8294/weather-app",
+    live: "https://sumitraj8294.github.io/weather-app/",
   },
 ];
 
@@ -60,7 +59,7 @@ const Projects = () => {
             className="project-card"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            whileHover={{ scale: 1.05 }} 
+            whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.5, delay: idx * 0.1 }}
           >
             {project.thumbnail && (
@@ -84,13 +83,29 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
+
+              {/* Separate Buttons */}
               <div className="project-buttons">
-                <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  GitHub
-                </a>
-                <a href={project.live} target="_blank" rel="noopener noreferrer">
-                  Live Demo
-                </a>
+                {project.github && project.github !== '#' && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn github-btn"
+                  >
+                    GitHub
+                  </a>
+                )}
+                {project.live && project.live !== '#' && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn live-btn"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>
