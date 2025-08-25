@@ -7,7 +7,7 @@ import voltxImg from '../assets/voltx.png';
 import sihImg from '../assets/sih-project.png';
 import touristImg from '../assets/tourist.png';
 import weatherImg from '../assets/weather.png';
-
+import ngoImg from '../assets/ngo.png';
 const projects = [
   {
     title: 'Voltx',
@@ -17,6 +17,14 @@ const projects = [
     thumbnail: voltxImg,
     github: "https://github.com/sumitraj8294/voltx",
     live: "https://voltx-ev-frontend.onrender.com",
+  },
+  {
+    title: 'Website For Cleen Foundation NGO',
+    description:
+      'Developed and optimized the Cleen Foundation website as a Frontend Developer, enhancing user experience and accessibility.',
+    tech: ['React', 'Vite', 'CSS'],
+    thumbnail: ngoImg,
+    live: "https://aryn-rjpt.github.io/cleen-foundation-ngo/",
   },
   {
     title: 'SIH Project – India Post',
