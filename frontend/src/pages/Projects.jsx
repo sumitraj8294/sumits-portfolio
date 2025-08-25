@@ -7,7 +7,7 @@ import voltxImg from '../assets/voltx.png';
 import sihImg from '../assets/sih-project.png';
 import touristImg from '../assets/tourist.png';
 import weatherImg from '../assets/weather.png';
-import ngoImg from '../assets/ngo.png';
+import ngoImg from '../assets/NGO.png';
 const projects = [
   {
     title: 'Voltx',
