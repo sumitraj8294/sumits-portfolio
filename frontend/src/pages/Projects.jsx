@@ -8,6 +8,7 @@ import sihImg from '../assets/sih-project.png';
 import touristImg from '../assets/tourist.png';
 import weatherImg from '../assets/weather.png';
 import ngoImg from '../assets/NGO.png';
+import purestateImg from '../assets/purestateweb.png';
 const projects = [
   {
     title: 'Voltx',
@@ -17,6 +18,14 @@ const projects = [
     thumbnail: voltxImg,
     github: "https://github.com/sumitraj8294/voltx",
     live: "https://voltx-ev-frontend.onrender.com",
+  },
+  {
+    title: 'PureState - Website from Scratch',
+    description:
+      'Built the PureState website from scratch with a modern, responsive design',
+    tech: ['React','Figma', 'Vite', 'CSS'],
+    thumbnail: purestateImg,
+    live: "https://www.purestate.in",
   },
   {
     title: 'Website For Cleen Foundation NGO',
