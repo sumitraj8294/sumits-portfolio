@@ -4,7 +4,7 @@ import Hero from './pages/Hero';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
-import Education from './pages/Education';
+// import Education from './pages/Education';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Skills from './pages/Skills';
@@ -19,7 +19,7 @@ function App() {
       <Skills/>
       <Projects />
       <Experience />
-      <Education />
+      {/* <Education /> */}
       <Contact />
       <Footer />
     </>

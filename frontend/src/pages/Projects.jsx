@@ -9,7 +9,18 @@ import touristImg from '../assets/tourist.png';
 import weatherImg from '../assets/weather.png';
 import ngoImg from '../assets/NGO.png';
 import purestateImg from '../assets/purestateweb.png';
+import vendprimeImg from '../assets/vendprime.png';
 const projects = [
+  {
+  title: 'VendPrime-Business Website',
+  description:
+    'Designed and developed the official website for VendPrime, a smart vending solutions company.',
+  tech: ['React', 'Vite', 'CSS', 'Responsive Design', 'Form Handling'],
+  thumbnail: vendprimeImg,
+  github: null, // private client project
+  live: "https://www.vendprime.in",
+},
+
   {
     title: 'Voltx',
     description:
@@ -52,15 +63,15 @@ const projects = [
     github: "https://github.com/sumitraj8294/Tourist_info_system",
     live: "https://sumitraj8294.github.io/Tourist_info_system/",
   },
-  {
-    title: 'Weather App',
-    description:
-      'Weather forecasting with live city search using OpenWeatherMap API.',
-    tech: ['React', 'API', 'Tailwind'],
-    thumbnail: weatherImg,
-    github: "https://github.com/sumitraj8294/weather-app",
-    live: "https://sumitraj8294.github.io/weather-app/",
-  },
+  // {
+  //   title: 'Weather App',
+  //   description:
+  //     'Weather forecasting with live city search using OpenWeatherMap API.',
+  //   tech: ['React', 'API', 'Tailwind'],
+  //   thumbnail: weatherImg,
+  //   github: "https://github.com/sumitraj8294/weather-app",
+  //   live: "https://sumitraj8294.github.io/weather-app/",
+  // },
 ];
 
 const Projects = () => {

@@ -7,10 +7,21 @@ import cheggLogo from '../assets/chegg.png';
 import buckLogo from '../assets/buck.png';
 
 const experienceList = [
+  // {
+  //   role: 'Associate Software Engineer',
+  //   company: 'PureState',
+  //   duration: 'July 2025 – Dec 2025',
+  //   logo: purestateLogo,
+  //   points: [
+  //     'Developing full-stack web applications for agri-based platforms.',
+  //     'Implemented secure user authentication and real-time location search.',
+  //     'Integrated MongoDB, Vercel, and deployment pipelines.',
+  //   ],
+  // },
   {
-    role: 'Software Developer',
+    role: 'Software Developer Intern',
     company: 'PureState',
-    duration: 'Jun 2024 – Present',
+    duration: 'July 2025 – Dec 2025',
     logo: purestateLogo,
     points: [
       'Developing full-stack web applications for agri-based platforms.',

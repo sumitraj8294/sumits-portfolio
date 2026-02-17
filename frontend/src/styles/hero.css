@@ -83,3 +83,7 @@
   background: rgba(10, 10, 10, 0); /* Adjust transparency here */
   z-index: 1;
 }
+.typewriter-text {
+  color: #3e0c53;
+  font-weight: 600;
+}
